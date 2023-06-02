@@ -1,22 +1,18 @@
 public class SumaDescendent {
-        private long numero;
-
-        public SumaDescendent(long numero) {
-            this.numero = numero;
-        }
-
-        public long suma() {
+        public int suma(long numero) {
             String numeroString = String.valueOf(numero);
-            long sumaDescendent = 0;
+            int longitudNumero = numeroString.length();
+            int sumaTotal = 0;
 
-            for (int i = 0; i < numeroString.length(); i++) {
+            for (int i = 0; i < longitudNumero; i++) {
                 String subNumeroString = numeroString.substring(i);
-                long subNumero = Long.parseLong(subNumeroString);
-                sumaDescendent += subNumero;
+                int digito = Integer.parseInt(subNumeroString);
+                sumaTotal += digito;
             }
 
-            return sumaDescendent;
+            return sumaTotal;
         }
-
 }
+
+
 
