@@ -3,8 +3,15 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
+/**
+ * La clase `calculMentalTest` realiza pruebas unitarias para la clase `calculMental`.
+ */
 public class calculMentalTest {
 
+    /**
+     * Prueba el método `calcula()` de la clase `calculMental` con una secuencia de operaciones.
+     * Verifica si los resultados parciales son correctos.
+     */
     @Test
     void testCalcula() {
         String secuencia = "15 + 8 - 7 + 10 - 3";
@@ -17,6 +24,10 @@ public class calculMentalTest {
         Assertions.assertEquals(23, resultados.get(3));
     }
 
+    /**
+     * Prueba el método `calcula()` de la clase `calculMental` con una única operación.
+     * Verifica si el resultado parcial es correcto.
+     */
     @Test
     void testCalculaUnaOperacion() {
         String secuencia = "10 + 5";
@@ -26,6 +37,10 @@ public class calculMentalTest {
         Assertions.assertEquals(15, resultados.get(0));
     }
 
+    /**
+     * Prueba el método `calcula()` de la clase `calculMental` con operaciones negativas.
+     * Verifica si los resultados parciales son correctos.
+     */
     @Test
     void testCalculaOperacionesNegativas() {
         String secuencia = "5 - 3 + 8 - 12";
