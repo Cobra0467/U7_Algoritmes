@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * La clase `calculMentalTest` realiza pruebas unitarias para la clase `calculMental`.
+ * @author Iván Ibáñez
+ * @title Tasca3 EEDD
  */
 public class calculMentalTest {
 

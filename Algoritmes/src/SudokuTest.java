@@ -1,10 +1,11 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-
 /**
  * Clase de prueba para la clase Sudoku.
  * Contiene pruebas unitarias para verificar el comportamiento de la clase Sudoku.
+ * @author Iván Ibáñez
+ * @title Tasca3 EEDD
  */
 public class SudokuTest {
 

@@ -1,9 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * La clase `calculMental` realiza cálculos mentales basados en una secuencia de operaciones.
+ * @author Iván Ibáñez
+ * @title Tasca3 EEDD
  */
+
 public class calculMental {
     private String secuencia;
 

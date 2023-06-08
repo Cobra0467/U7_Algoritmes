@@ -5,6 +5,8 @@ import java.util.Set;
 /**
  * Clase que representa un juego de Sudoku.
  * Permite verificar si un Sudoku está correctamente resuelto y si está completo.
+ * @author Iván Ibáñez
+ * @title Tasca3 EEDD
  */
 public class Sudoku {
     private int[][] grid;
